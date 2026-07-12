@@ -1,0 +1,17 @@
+# Business Central / AL build output
+*.app
+.alpackages/
+.altemplates/
+.snapshots/
+rad.json
+.output/
+*.dgml.g.dgml
+
+# VS Code (keep launch.json / rad.json out of noise, but ignore local state)
+.vscode/*.log
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp

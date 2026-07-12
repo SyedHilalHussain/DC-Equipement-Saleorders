@@ -1,0 +1,44 @@
+{
+  "id": "cc852e5b-f047-4dd5-9050-cce604c9ee70",
+  "name": "saleorders",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.3",
+  "runtime": "16.0",
+  "target": "Cloud",
+  "application": "27.5.0.0",
+  "platform": "27.0.51201.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "dependencies": [
+    {
+      "id": "46710331-0c85-4cc1-a12c-d37991fc86d4",
+      "name": "DC_Report_Layout",
+      "version": "1.0.0.11",
+      "publisher": "Default Publisher"
+    },
+    {
+      "id": "2a701965-4b6d-4b02-953b-07a6f35449bc",
+      "name": "DC Equipment",
+      "version": "3.0.0.84",
+      "publisher": "Default Publisher"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "build": {
+    "by": "AL Language Extension,17.0.2273547",
+    "timestamp": "2026-05-08T15:58:38.0907173+00:00",
+    "compilerVersion": "17.0.34.45391"
+  }
+}
